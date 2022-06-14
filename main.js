@@ -4,6 +4,8 @@
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
 
+
+
 const userAge = parseInt( prompt('Dimmi la tua età') );
 
 const distance = parseInt( prompt('Dimmi quanti km vorresti percorrere') );
@@ -42,7 +44,9 @@ if ( isNaN(userAge) == true) {
     }
 
     // display the result
-    console.log({result});
+    // console.log({result});
+
+    console.log(`${result .toFixed(2)} Euro`);
 
 
 
